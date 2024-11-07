@@ -8,7 +8,7 @@ export default function Home() {
         displayTime={5} // Time in seconds to display the popup
         displayPeriod={10} // Duration in seconds to show the popup
         frequency={60} // Frequency in seconds to display the popup again
-        pageUrl="/specific-page" // URL path where the popup should appear
+        pageUrl="/*" // URL path where the popup should appear
       />
     </div>
   );
